@@ -20,14 +20,14 @@ O objetivo deste projeto é criar uma interface de chat que permite aos atendent
 ## 📂 Estrutura de Pastas
 O projeto está organizado da seguinte maneira:
 
-atendimento_chat_app/
-├── static/
-│   │── background_chat.jpg
-│   │── favicon.png
-│   └── style.css
-├── templates/
-│   └── index.html
-└── app.py
+    atendimento_chat_app/
+    ├── static/
+    │   │── background_chat.jpg
+    │   │── favicon.png
+    │   └── style.css
+    ├── templates/
+    │   └── index.html
+    └── app.py
 
 - *static:* Contém arquivos estáticos como imagens e folhas de estilo CSS.
 - *templates:* Armazena o arquivo HTML que define a estrutura da página web.
