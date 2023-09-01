@@ -18,9 +18,9 @@ O objetivo deste projeto é criar uma interface de chat que permite aos atendent
 - *Tecnologia de IA (não fornecida no código):* Utilizada para calcular a similaridade das mensagens e sugerir respostas do FAQ.
 
 ## 📂 Estrutura de Pastas
-O projeto está organizado da seguinte maneira:
+Os arquivos front-end do projeto estão organizados da seguinte maneira:
 
-    atendimento_chat_app/
+    chat_example/
     ├── static/
     │   │── background_chat.jpg
     │   │── favicon.png
