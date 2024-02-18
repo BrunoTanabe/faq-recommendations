@@ -1,4 +1,3 @@
-# faq-recommendations
 # 🤖  FAQ Recommendations 📞
 Bem-vindo ao repositório FAQ-Recommendations! Este projeto consiste em uma aplicação web que simula um chat de atendimento, onde um atendente pode interagir com os usuários. A aplicação utiliza uma tecnologia de busca semântica para sugerir respostas do FAQ com base nas mensagens dos usuários. O objetivo principal é facilitar o atendimento ao cliente, fornecendo respostas relevantes e agilizando o processo de suporte.
 
