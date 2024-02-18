@@ -1,1 +1,1 @@
-Modelos não estão no repositório devido a capacidade de armazenamento do GitHub.
+The models are not in the repository due to GitHub's free storage capacity.

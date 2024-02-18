@@ -1,23 +1,23 @@
-# 🤖  FAQ Recommendations 📞
-Bem-vindo ao repositório FAQ-Recommendations! Este projeto consiste em uma aplicação web que simula um chat de atendimento, onde um atendente pode interagir com os usuários. A aplicação utiliza uma tecnologia de busca semântica para sugerir respostas do FAQ com base nas mensagens dos usuários. O objetivo principal é facilitar o atendimento ao cliente, fornecendo respostas relevantes e agilizando o processo de suporte.
+# 🤖 FAQ Recommendations 📞
+Welcome to the FAQ-Recommendations repository! This project consists of a web application that simulates a customer service chat, where an attendant can interact with users. The application uses semantic search technology to suggest FAQ answers based on user messages. The main goal is to facilitate customer service by providing relevant answers and streamlining the support process.
 
-## 🎯 Objetivos do Projeto
-O objetivo deste projeto é criar uma interface de chat que permite aos atendentes responder eficientemente às consultas dos usuários, fazendo uso de uma base de Perguntas Frequentes (FAQ). O sistema emprega uma tecnologia de Inteligência Artificial para analisar as mensagens dos usuários e sugerir automaticamente respostas do FAQ, otimizando assim a comunicação e a eficiência do atendimento.
+## 🎯 Project Objectives
+The objective of this project is to create a chat interface that allows attendants to efficiently respond to user queries, using a Frequently Asked Questions (FAQ) base. The system employs Artificial Intelligence technology to analyze user messages and automatically suggest FAQ answers, thus optimizing communication and support efficiency.
 
-## ⭐ Funcionalidades Principais
-1. *Chat de Atendimento Interativo:* A aplicação simula uma interface de chat em que os atendentes podem responder às mensagens dos usuários de forma interativa.
+## ⭐ Key Features
+1. *Interactive Customer Service Chat:* The application simulates a chat interface where attendants can interactively respond to user messages.
 
-2. *Sugestão de Respostas do FAQ:* Com base nas mensagens dos usuários, a tecnologia de IA analisa a semelhança com as perguntas frequentes da base de FAQ e sugere respostas relevantes.
+2. *FAQ Answer Suggestions:* Based on user messages, AI technology analyzes similarity with the frequently asked questions in the FAQ base and suggests relevant answers.
 
-3. *Apresentação de Similaridade:* As respostas sugeridas são exibidas com uma indicação de similaridade em relação à mensagem do usuário.
+3. *Similarity Presentation:* The suggested answers are displayed with an indication of similarity to the user's message.
 
-## 🛠 Tecnologias Utilizadas️
-- *HTML e CSS:* Para a construção da interface do chat.
-- *Flask:* Um framework de desenvolvimento web em Python, usado para criar o servidor e as rotas da aplicação.
-- *Python:* A linguagem principal para a lógica de negócios e interação com a API de IA.
-- *Tecnologia de IA:* Utilizada para calcular a similaridade das mensagens e sugerir respostas do FAQ.
+## 🛠 Technologies Used
+- *HTML and CSS:* For building the chat interface.
+- *Flask:* A Python web development framework used to create the server and application routes.
+- *Python:* The main language for business logic and interaction with the AI API.
+- *AI Technology:* Utilized for calculating message similarity and suggesting FAQ answers.
 
-## 📋Requisitos
+## 📋 Requirements
 
 <table>
   <tr>
@@ -30,60 +30,60 @@ O objetivo deste projeto é criar uma interface de chat que permite aos atendent
   </tr>
 </table>
 
-## ▶️ Executando o Projeto
-### Configurando o ambiente no Linux (Recomendado)
-1. Clone este repositório utilizando o comando `git clone https://github.com/BrunoTanabe/faq-recommendations`.
+## ▶️ Running the Project
+### Setting up the environment on Linux (Recommended)
+1. Clone this repository using the command `git clone https://github.com/BrunoTanabe/faq-recommendations`.
  
-2. Navegue até a pasta faq-recommendations utilizando o comando `cd faq-recommendations`.
+2. Navigate to the faq-recommendations folder using the command `cd faq-recommendations`.
 
-3. Crie um ambiente virtual utilizando o comando `python3 -m venv venv`.
+3. Create a virtual environment using the command `python3 -m venv venv`.
 
-4. Ative o ambiente virtual utilizando o comando `source venv/bin/activate`.
+4. Activate the virtual environment using the command `source venv/bin/activate`.
 
-5. instale os requisitos utilizando o comando `pip install -r requirements.txt`.
+5. Install requirements using the command `pip install -r requirements.txt`.
 
-### Configurando o ambiente no Windows
-1. Clone este repositório utilizando o comando `git clone https://github.com/BrunoTanabe/faq-recommendations`.
+### Setting up the environment on Windows
+1. Clone this repository using the command `git clone https://github.com/BrunoTanabe/faq-recommendations`.
  
-2. Navegue até a pasta faq-recommendations utilizando o comando `cd faq-recommendations`.
+2. Navigate to the faq-recommendations folder using the command `cd faq-recommendations`.
 
-3. Crie um ambiente virtual utilizando o comando `python -m venv venv`.
+3. Create a virtual environment using the command `python -m venv venv`.
 
-4. Ative o ambiente virtual utilizando o comando `./venv/scripts/activate`.
+4. Activate the virtual environment using the command `./venv/scripts/activate`.
 
-5. instale os requisitos utilizando o comando `pip install -r requirements.txt`.
+5. Install requirements using the command `pip install -r requirements.txt`.
 
-### Baixando os Modelos necessários
-1. Utilize o comando `cd models` para navegar até a pasta models.
+### Downloading Required Models
+1. Use the command `cd models` to navigate to the models folder.
 
-2. Execute o comando `python -m spacy download pt_core_news_lg` para baixar o modelo NLP para processamento de texto.
+2. Run the command `python -m spacy download pt_core_news_lg` to download the NLP model for text processing.
 
-3. Utilize o comando `git clone https://huggingface.co/neuralmind/bert-large-portuguese-cased` para baixar o modelo de embeddings.
+3. Use the command `git clone https://huggingface.co/neuralmind/bert-large-portuguese-cased` to download the embeddings model.
 
-### Executando a API
-1. Certifique-se de que o ambiente virtual está ativado
+### Running the API
+1. Make sure the virtual environment is activated.
 
-2. Utilize o comando `cd src` para navegar até a pasta src
+2. Use the command `cd src` to navigate to the src folder.
 
-4. Utilize o comando `uvicorn main:app` para iniciar a API que estará sendo 
+4. Use the command `uvicorn main:app` to start the API.
 
-### Abrindo a aplicação WEB
-1. Execute o arquivo `app.py` para iniciar o servidor Flask: `python app.py`.
+### Opening the Web Application
+1. Run the `app.py` file to start the Flask server: `python app.py`.
 
-2. Acesse a aplicação em seu navegador através do endereço: `http://localhost:5000`.
+2. Access the application in your browser through the address: `http://localhost:5000`.
 
-![Demonstração da Aplicação WEB](/data/images/demo.png)
+![Web Application Demonstration](/data/images/demo.png)
 
-### Como fazer requisições diretamente a API? (Sem utilizar a aplicação web)
-para fazer as requisições basta entrar na seguinte URL: `http://127.0.0.1:8000/get_similarities/{seu texto vai aqui}`, no qual será retornado um JSON com as recomendações do FAQ.
+### How to make requests directly to the API? (Without using the web application)
+To make requests, simply enter the following URL: `http://127.0.0.1:8000/get_similarities/{your text goes here}`, which will return a JSON with FAQ recommendations.
 
-## ❗ Nota Importante
-Certifique-se de integrar a tecnologia de IA apropriada para calcular as similaridades e sugerir as respostas do FAQ.
+## ❗ Important Note
+Make sure to integrate the appropriate AI technology to calculate similarities and suggest FAQ answers.
 
-## 👥 Autores
-Bruno Henrique Pereira Domingues e Rafael dos Santos Fortes
+## 👥 Authors
+Bruno Henrique Pereira Domingues and Rafael dos Santos Fortes
 
-## 💙 Agradecimento Especial à Tech4Humans
-Gostaríamos de expressar nossa sincera gratidão à equipe da Tech4Humans pela emocionante oportunidade de aprendizado e pelo inspirador projeto proposto. Essa jornada nos proporcionou uma experiência enriquecedora, permitindo-nos explorar e aprimorar nossas habilidades no desenvolvimento web, integração de tecnologias de IA e criação de soluções interativas. 
+## 💙 Special Thanks to Tech4Humans
+We would like to express our sincere gratitude to the Tech4Humans team for the exciting learning opportunity and the inspiring project proposed. This journey has provided us with an enriching experience, allowing us to explore and enhance our skills in web development, integration of AI technologies, and creation of interactive solutions.
 
-Este projeto nos desafiou a pensar criativamente, trabalhar em equipe e enfrentar desafios técnicos, capacitando-nos a enfrentar situações do mundo real com confiança e determinação. Mais uma vez, obrigado à Tech4Humans por acreditar em nós e nos proporcionar esta experiência incrível.
+This project has challenged us to think creatively, work as a team, and tackle technical challenges, empowering us to face real-world situations with confidence and determination. Once again, thank you to Tech4Humans for believing in us and providing us with this amazing experience.

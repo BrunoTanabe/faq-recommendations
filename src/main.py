@@ -1,8 +1,7 @@
-from fastapi import FastAPI
-
 import pandas as pd
 import numpy as np
 import spacy
+from fastapi import FastAPI
 from sentence_transformers import SentenceTransformer, util, models
 
 import functions
