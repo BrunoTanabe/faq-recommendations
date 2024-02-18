@@ -1,0 +1,154 @@
+/* Configurações gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Container principal do chat */
+.chat-container {
+    display: flex;
+    height: 100vh;
+    background-image: url("background_chat.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Barra lateral do chat */
+.chat-sidebar {
+    width: 25%;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+}
+
+/* Lista de contatos */
+.contact-list {
+    padding: 10px;
+    width: 300px;
+}
+
+/* Área principal do chat */
+.chat-main {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Histórico do chat */
+.chat-history {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+/* Mensagem no histórico */
+.chat-history .message {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+/* Mensagem do atendente */
+.chat-history .message.from-atendente {
+    justify-content: flex-end;
+}
+
+/* Mensagem (ambos atendente e usuário) */
+.message {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+/* Mensagem do usuário */
+.message.from-usuario {
+    justify-content: flex-start;
+}
+
+/* Balão da mensagem */
+.message-bubble {
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    font-size: 16px;
+}
+
+/* Balão do atendente */
+.atendente-bubble {
+    background-color: #dcf8c6;
+    color: #000;
+}
+
+/* Balão do usuário */
+.usuario-bubble {
+    background-color: #e5e5ea;
+    color: #000;
+}
+
+/* Entrada de texto do chat */
+.chat-input {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    background-color: white;
+}
+
+/* Estilo padrão para tamanhos maiores de tela */
+.chat-input input[type="text"] {
+    flex: 2;
+    width: 950px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para tamanhos de tela menores */
+@media (max-width: 768px) {
+    .chat-input input[type="text"] {
+        width: 80%;
+    }
+}
+
+/* Botão de envio */
+.chat-input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+/* Efeito hover para o botão de envio */
+.chat-input button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para separar perguntas diferentes na lista de contatos */
+.contact-list li {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+/* Estilo para a última pergunta na lista de contatos */
+.contact-list li:last-child {
+    border-bottom: none;
+}
+
+/* Estilo para a similaridade */
+.similaridade {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}

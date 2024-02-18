@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat de Atendimento</title>
+    <!-- Incluindo o arquivo de estilo CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Adicionando o link do favicon -->
+    <link rel="icon" href="{{ url_for('static', filename='favicon.png') }}" type="image/png">
+</head>
+<body>
+    <!-- Container principal para o chat -->
+    <div class="chat-container">
+        <!-- Barra lateral do chat -->
+        <div class="chat-sidebar">
+            <!-- Lista de contatos -->
+            <div class="contact-list">
+                <!-- Verifica se há respostas sugeridas -->
+                {% if respostas_sugeridas %}
+                    <!-- Caso não haja respostas sugeridas -->
+                    <h2>FAQ:</h2>
+                    <ul>
+                        <!-- Loop através das respostas sugeridas -->
+                        {% for similaridade, pergunta, resposta in respostas_sugeridas %}
+                            <li>
+                                <!-- Exibe a pergunta -->
+                                <p class="pergunta"><strong>Pergunta:</strong> {{ pergunta }}</p>
+                                <!-- Exibe a resposta -->
+                                <p class="resposta"><strong>Resposta:</strong> {{ resposta }}</p>
+                                <!-- Exibe a similaridade -->
+                                <p class="similaridade"><strong>Similaridade:</strong> {{ "%.2f" % (similaridade * 100) }}%</p>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                        <!-- Caso não haja respostas sugeridas -->
+                        <h2>FAQ:</h2>
+                        <p>Nenhuma resposta sugerida no momento.</p>
+                {% endif %}
+            </div>
+        </div>
+        <!-- Área principal do chat -->
+        <div class="chat-main">
+            <div class="chat-history">
+                <!-- Exibe a conversa entre o atendente e o usuário -->
+                {% for mensagem, remetente in conversa %}
+                    {% if remetente == 'usuario' %}
+                    <div class="message from-usuario">
+                        <div class="message-bubble usuario-bubble">
+                            {{ mensagem }}
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if remetente == 'atendente' %}
+                    <div class="message from-atendente">
+                        <div class="message-bubble atendente-bubble">
+                            {{ mensagem }}
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <!-- Área de entrada de texto -->
+            <div class="chat-input">
+                <form method="post">
+                    <!-- Campo de entrada de texto -->
+                    <input type="text" id="mensagem" name="mensagem" placeholder="Digite sua mensagem..." required>
+                    <!-- Botão de envio -->
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

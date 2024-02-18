@@ -1,0 +1,89 @@
+Pergunta: Quais serviços a empresa de telecomunicações oferece?
+Resposta: Nossa empresa oferece serviços de telefonia fixa, telefonia móvel, internet banda larga e TV por assinatura.
+
+Pergunta: Como posso contratar os serviços da empresa?
+Resposta: Para contratar nossos serviços, você pode entrar em contato conosco pelo telefone, através do nosso site ou visitando uma de nossas lojas físicas.
+
+Pergunta: Quais são os planos disponíveis para a telefonia móvel?
+Resposta: Temos diversos planos com diferentes franquias de dados, minutos e serviços adicionais. Entre em contato para conhecer as opções disponíveis em sua região.
+
+Pergunta: A empresa oferece planos empresariais?
+Resposta: Sim, temos planos especiais para empresas, com benefícios e condições exclusivas para atender às necessidades corporativas.
+
+Pergunta: Quais são as velocidades de internet oferecidas?
+Resposta: Nossos planos de internet oferecem diferentes velocidades de acordo com a disponibilidade técnica em sua região. Temos opções que vão de 10 Mbps a 500 Mbps.
+
+Pergunta: É possível fazer a portabilidade do meu número para a empresa?
+Resposta: Sim, é possível fazer a portabilidade do seu número de telefone fixo ou móvel para nossa empresa. Entre em contato para obter mais informações.
+
+Pergunta: Como posso verificar a cobertura de internet na minha área?
+Resposta: Para verificar a cobertura de internet em sua região, entre em contato conosco com o CEP ou endereço da sua localidade.
+
+Pergunta: A empresa oferece suporte técnico?
+Resposta: Sim, nossa empresa oferece suporte técnico especializado para auxiliá-lo em questões relacionadas aos nossos serviços.
+
+Pergunta: Posso fazer a contratação de serviços adicionais, como canais extras na TV por assinatura?
+Resposta: Sim, você pode personalizar seu pacote de TV por assinatura adicionando canais extras de acordo com suas preferências.
+
+Pergunta: Como posso efetuar o pagamento da minha fatura?
+Resposta: Aceitamos diversos métodos de pagamento, incluindo cartão de crédito, débito em conta e boleto bancário.
+
+Pergunta: É possível fazer upgrade ou downgrade nos planos contratados?
+Resposta: Sim, você pode fazer o upgrade ou downgrade do seu plano a qualquer momento, conforme suas necessidades.
+
+Pergunta: A empresa oferece descontos para pacotes combinados?
+Resposta: Sim, oferecemos descontos especiais para clientes que optam por contratar mais de um serviço da nossa empresa.
+
+Pergunta: O que fazer em caso de falha no serviço de internet ou telefone?
+Resposta: Em caso de falha no serviço, entre em contato com nosso suporte técnico para que possamos solucionar o problema o mais rápido possível.
+
+Pergunta: Como posso acompanhar meu consumo de internet e minutos de telefone?
+Resposta: Você pode acompanhar seu consumo através do nosso aplicativo ou acessando sua área do cliente no site.
+
+Pergunta: A empresa oferece roteadores e equipamentos para internet?
+Resposta: Sim, fornecemos equipamentos para internet em comodato para nossos clientes.
+
+Pergunta: É possível contratar serviços adicionais, como o serviço de streaming de filmes e séries?
+Resposta: Sim, oferecemos opções de streaming em parceria com diversas plataformas de entretenimento.
+
+Pergunta: A empresa oferece atendimento em outros idiomas além do português?
+Resposta: No momento, nosso atendimento é realizado apenas em português.
+
+Pergunta: Como posso solicitar a mudança de endereço dos serviços contratados?
+Resposta: Entre em contato com nosso atendimento para solicitar a mudança de endereço e verificar a disponibilidade na nova localidade.
+
+Pergunta: É possível fazer a rescisão dos serviços a qualquer momento?
+Resposta: Sim, você pode solicitar a rescisão dos serviços a qualquer momento, seguindo as condições estabelecidas no contrato.
+
+Pergunta: A empresa oferece planos para clientes que utilizam muitos dados móveis?
+Resposta: Sim, temos planos com franquias de dados maiores para atender às necessidades dos usuários que consomem mais internet móvel.
+
+Pergunta: Quais são os benefícios de ser um cliente de longa data da empresa?
+Resposta: Oferecemos programas de fidelidade e benefícios exclusivos para clientes que permanecem conosco por um longo período.
+
+Pergunta: A empresa disponibiliza serviços de telefonia internacional?
+Resposta: Sim, oferecemos opções para ligações internacionais, com tarifas competitivas.
+
+Pergunta: É possível obter um número de telefone fixo em outra cidade ou estado?
+Resposta: Sim, você pode contratar um número de telefone fixo de outra cidade ou estado, dependendo da disponibilidade.
+
+Pergunta: A empresa oferece serviço de fibra óptica?
+Resposta: Sim, nossa empresa oferece serviço de internet banda larga com tecnologia de fibra óptica em áreas cobertas.
+
+Pergunta: Como posso agendar a visita de um técnico para instalação dos serviços?
+Resposta: Você pode agendar a visita de um técnico entrando em contato com nosso suporte técnico ou através do nosso site.
+
+Pergunta: Quais são as opções de pacotes de TV por assinatura disponíveis?
+Resposta: Temos diferentes pacotes de TV por assinatura com variedade de canais para atender aos gostos de cada cliente.
+
+Pergunta: A empresa oferece serviços de telefonia VoIP?
+Resposta: Sim, oferecemos serviços de telefonia VoIP para clientes corporativos.
+
+Pergunta: Como posso acompanhar o status de uma solicitação ou chamado técnico?
+Resposta: Você pode acompanhar o status de suas solicitações e chamados através da área do cliente em nosso site.
+
+Pergunta: A empresa oferece programas de incentivo para indicação de novos clientes?
+Resposta: Sim, temos programas de indicação que oferecem benefícios para clientes que indicam novos clientes para nossa empresa.
+
+Pergunta: A empresa disponibiliza pacotes de internet com tráfego ilimitado?
+Resposta: Sim, temos opções de planos com tráfego ilimitado para atender às necessidades de nossos clientes.

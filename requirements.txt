@@ -1,0 +1,7 @@
+fastapi==0.101.0
+flask==2.3.2
+matplotlib==3.7.2
+pandas==2.0.3
+sentence-transformers==2.2.2
+spacy==3.6.0
+uvicorn==0.23.2
