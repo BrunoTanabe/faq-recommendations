@@ -1,2 +1,0 @@
-models/embeddings_model_pt/0_SentenceTransformer/model.safetensors filter=lfs diff=lfs merge=lfs -text
-models/nlp_model/vocab/vectors filter=lfs diff=lfs merge=lfs -text
